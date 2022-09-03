@@ -1,0 +1,26 @@
+﻿<script src="~/Scripts/CountryPage.js"></script>
+
+<div class="row">
+    <div class="col-md-4">
+        <h1>Country Page</h1>
+        <select id="drdCountry" class="form-control mt-5" onchange="GetCountryInformationWithCountryName(this.value)">
+        </select>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-md-12">
+        <table id="countryTable" style="width: 100% !important;" class="">
+            <thead>
+                <tr>
+                    <th>ÜLKE</th>
+                    <th>Ülke Başkent</th>
+                    <th>Ülke Kısaltması</th>
+                    <th>Ülke Para Birimi</th>
+                </tr>
+            </thead>
+            <tbody id="tbodyCountry">
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -46,7 +46,7 @@ namespace Project.Web.Controllers
 
                     List<CountryVM> countryVMList = new List<CountryVM>();
 
-                    foreach (var countryDTO in countryDTOList)
+                    foreach (CountryDTO countryDTO in countryDTOList)
                     {
                         CountryVM countryVm = new CountryVM()
                         {

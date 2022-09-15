@@ -23,7 +23,7 @@ namespace Project.API.Controllers
 
             List<CountryDTO> countriesDTOList = new List<CountryDTO>();
 
-            foreach (var country in countries)
+            foreach (tCountryCodeAndName country in countries)
             {
                 CountryDTO countryDTO = new CountryDTO();
                 countryDTO.CountryName = country.sName;
